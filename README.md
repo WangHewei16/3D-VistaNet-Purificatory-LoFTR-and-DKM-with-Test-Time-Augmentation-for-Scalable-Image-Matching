@@ -17,6 +17,8 @@ Our task is to develop a machine learning algorithm for registering two images f
 
 
 #### 3. Kornia tool
+We choose to use Kornia [link(https://kornia.readthedocs.io/en/latest/)] to develop our mode, this is a tool powered by PyTorch and good at dealing with image matching problem.
+
 <div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/Kornia%20icon.png" width="300"/></div>
 
 #### 4. Process of solving this problem
