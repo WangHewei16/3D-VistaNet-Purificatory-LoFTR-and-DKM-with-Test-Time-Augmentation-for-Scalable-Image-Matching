@@ -26,6 +26,7 @@ We choose to use Kornia [[Link](https://kornia.readthedocs.io/en/latest/)] to de
 <div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/Kornia%20icon.png" width="300"/></div>
 
 #### 4. Process of solving this problem
+As for estimator, we use OpenCV estimator that is available in [[Link1](https://www.jianshu.com/p/56344498af8c)] and [[Link2](https://zhuanlan.zhihu.com/p/45532306)].
 <div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/process.png" width="590"/></div>
 
 #### 5. BackBone 
