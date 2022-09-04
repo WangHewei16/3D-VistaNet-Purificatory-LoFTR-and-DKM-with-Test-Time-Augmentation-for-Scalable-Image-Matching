@@ -9,7 +9,7 @@ Developed a DL model to register two images from different viewpoints with coars
 
 
 #### 3. Kornia tool
-<div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/Kornia%20icon.png" width="590"/></div>
+<div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/Kornia%20icon.png" width="300"/></div>
 
 #### 4. Process of solving this problem
 <div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/process.png" width="590"/></div>
