@@ -12,12 +12,14 @@ The first step is to determine which parts of two images capture the same physic
 
 Our task is to develop a machine learning algorithm for registering two images from different perspectives. To train and test our model, we have access to a dataset of thousands of images.
 
+
+
 #### 2. Testset Sample
 <div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/testset%20sample.png" width="590"/></div>
 
 
 #### 3. Kornia tool
-We choose to use Kornia [link(https://kornia.readthedocs.io/en/latest/)] to develop our mode, this is a tool powered by PyTorch and good at dealing with image matching problem.
+We choose to use Kornia [[link](https://kornia.readthedocs.io/en/latest/)] to develop our mode, this is a tool powered by PyTorch and good at dealing with image matching problem.
 
 <div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/Kornia%20icon.png" width="300"/></div>
 
