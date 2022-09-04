@@ -21,7 +21,7 @@ Our task is to develop a machine learning algorithm for registering two images f
 
 
 #### 3. Kornia tool
-We choose to use Kornia [[link](https://kornia.readthedocs.io/en/latest/)] to develop our mode, this is a tool powered by PyTorch and good at dealing with image matching problem.
+We choose to use Kornia [[Link](https://kornia.readthedocs.io/en/latest/)] to develop our mode, this is a tool powered by PyTorch and good at dealing with image matching problem.
 
 <div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/Kornia%20icon.png" width="300"/></div>
 
@@ -30,14 +30,17 @@ We choose to use Kornia [[link](https://kornia.readthedocs.io/en/latest/)] to de
 
 #### 5. BackBone 
 ##### 5.1 LoFTR Achitecture
-
+The figure below shows the achitecture of LoFTR [[Paper Link](https://arxiv.org/pdf/2104.00680.pdf)]
 <div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/LoFTR%20architecture.png" width="590"/></div>
 
 ##### 5.2 DKM Achitecture
+The figure below shows the achitecture of Deep Kernelized Dense Geometric Matching (DKM) [[Paper Link](https://arxiv.org/pdf/2202.00667.pdf)]
 <div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/DKM%20architecture.png" width="590"/></div>
 
 
 #### 6. Test Time Augmentation (TTA)
+Adopt size transformation and flip and Test Time Augmentation (TTA) on the inference stage of LoFTR.
+
 <div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/Test%20Time%20Augmentation.png" width="590"/></div>
 
 
