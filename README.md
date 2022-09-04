@@ -12,7 +12,7 @@ The first step is to determine which parts of two images capture the same physic
 
 Our task is to develop a machine learning algorithm for registering two images from different perspectives. To train and test our model, we have access to a dataset of thousands of images. Figure below shows the sample of image matching and the trainset sample.
 
-<div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/problem%20sample%20and%20training-set.png" width="650"/></div>
+<div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/problem%20and%20trainset%20sample.png" width="650"/></div>
 
 
 
