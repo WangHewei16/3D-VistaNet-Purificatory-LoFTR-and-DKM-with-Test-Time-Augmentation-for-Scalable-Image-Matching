@@ -10,7 +10,9 @@ Structure-from-Motion (SfM) is a method for reconstructing 3D objects and buildi
 The first step is to determine which parts of two images capture the same physical points of a scene, such as window corners. This is typically accomplished through the use of local features (key locations in an image that can be reliably identified across different views). Local features include short description vectors that capture the appearance in the vicinity of the point of interest. By comparing these descriptors, it is possible to establish likely correspondences between the pixel coordinates of image locations in two or more images. This "image registration" allows for the recovery of the point's 3D location via triangulation.
 
 
-Our task is to develop a machine learning algorithm for registering two images from different perspectives. To train and test our model, we have access to a dataset of thousands of images.
+Our task is to develop a machine learning algorithm for registering two images from different perspectives. To train and test our model, we have access to a dataset of thousands of images. Figure below shows the sample of image matching and the trainset sample.
+
+<div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/problem%20sample%20and%20training-set.png" width="650"/></div>
 
 
 
