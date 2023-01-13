@@ -1,6 +1,6 @@
 ## LoFTR-DKM-Network-with-TAA-for-Image-Matching
 
-#### 1. Background of the problem to be solved
+#### 1. Statement of Problem
 For the majority of us, our best camera is built into our phone. We may take a photograph of a landmark, such as Rome's Trevi Fountain, and share it with friends. That photo is only two-dimensional and includes the perspective of our shooting location. Of course, many people have photographed the fountain. We might be able to create a more complete, three-dimensional view if we work together. What if machine learning could aid in better capturing the richness of the world by utilizing the vast amounts of unstructured image collections that are freely available on the internet?
 
 
