@@ -26,8 +26,9 @@ We choose to use Kornia [[Link](https://kornia.readthedocs.io/en/latest/)] to de
 <div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/Kornia%20icon.png" width="300"/></div>
 
 #### 4. Process of solving this problem
-As for estimator, we use OpenCV estimator MAGSAC++ [[Link](https://ieeexplore.ieee.org/document/9156822)].
+As for estimator, we use OpenCV estimator MAGSAC++ [[Link](https://ieeexplore.ieee.org/document/9156822)]. Our team established a deep learning model to register two images from different viewpoints with the coarse-to-fine attention mechanisms, which employed Local Feature TRansformer (LoFTR) for local feature matching and Deep Kernelized Dense Geometric Matching (DKM) for regression with deep kernels and Gaussian processes. We adopted size transformation/flip and Test Time Augmentation (TTA) to the inference stage of LoFTR and filtered the coordinate pairs with lower DKM matching score, ensembled results and ranked 39th among over 600 teams.
 <div align=center><img src="https://github.com/WangHewei16/LoFTR-DKM-Network-for-Image-Matching/blob/main/images/process.png" width="590"/></div>
+
 
 #### 5. BackBone 
 ##### 5.1 LoFTR Achitecture
